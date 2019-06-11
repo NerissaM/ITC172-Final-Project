@@ -7,4 +7,6 @@ urlpatterns=[
     path('getresource/', views.getresource, name='products'),
     path('resourcedetails/<int:id>', views.resourcedetails, name='resourcedetails'),
     path('newProduct/', views.newProduct, name='newproduct'),
+    path('loginmessage/', views.loginmessage, name='loginmessage'),
+    path('logoutmessage/', views.logoutmessage, name='logoutmessage'),
 ]
